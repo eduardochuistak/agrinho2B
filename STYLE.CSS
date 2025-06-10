@@ -1,0 +1,64 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f2e6;
+    color: #2f4f4f;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.natureza {
+    margin-bottom: 40px;
+}
+
+.natureza h2 {
+    color: #2e8b57;
+}
+
+.natureza img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.link-explorar {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.link-explorar a {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.link-explorar a:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
